@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body{color: rgb(10, 10, 10);
+        background-color: rgb(149, 155, 142);
+        }
+        h1{
+            color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Cadastro pessoa</h1>
+    <form action="receberDados.php" method="post">
+        Nome: <input type="text" name="nome" >
+        Endereço: <input type="text" name="nome" size="50">
+        Hora: <input type="time" name="hora">
+        Email: <input type="email" name="email">
+        <br>
+        <br>
+        Senha: <input type="password" name="senha">
+        <br>
+        <br>
+        Cor: <input type="color" name="cor">
+        <input type="file" name="arquivo">
+        <br>
+        <br>
+        Data: <input type="datetime" name="data">
+        <br>
+        <br>
+        Satisfação<input type="range" name="satisfaçao">
+        <br>
+        Nascimento:<input type="datetime-local" name="nascimento">
+        <br>
+        <br>
+        <br>
+        Cursos:
+        <br>
+        TI:<input type="radio" name="curso" value="TI">
+        <br>
+        MC:<input type="radio" name="curso" value="MC">
+        <br>
+        TL:<input type="radio" name="curso" value="TL">
+        <br>
+        <br>
+        Disciplinas:<br>
+        <input type="checkbox" name="LVI">LVI<br>
+        <input type="checkbox" name="Redes">Redes<br>
+        <input type="checkbox" name="MPE">MPE<br>
+        <input type="checkbox" name="POO">POO<br>
+        Estado:<br>
+        <select name="">
+            <option value=""></option>
+            <option value="DF">DF</option>
+            <option value="MG">MG</option>
+            <option value="BH">BH</option>
+            <option value="SP">SP</option>
+        </select>
+        Observações:
+        <br>
+        <textarea name="Observações" cols="50" rows="10"></textarea>
+        <br>
+        <input type="submit" value="Cadastrar">
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
